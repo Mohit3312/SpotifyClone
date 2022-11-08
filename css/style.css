@@ -19,29 +19,30 @@ nav ul {
   display: flex;
   align-items: center;
   list-style: none;
-  height: 12vh;
+  height: 9vh;
   background-color: black;
   color: white;
 }
 
 nav ul li {
-  padding: 0 12px;
+  padding: 0 25px;
+  cursor: pointer;
 }
 
 .brand {
   display: flex;
   align-items: center;
   font-weight: bolder;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .brand img {
-  width: 60px;
+  width: 45px;
   padding: 0 8px;
 }
 
 .container {
-  height: 66vh;
+  height: 70vh;
   background-color: black;
   color: white;
   font-family: "Varela Round", sans-serif;
@@ -51,8 +52,9 @@ nav ul li {
   width: 70vw;
   border: 2px solid black;
   border-radius: 12px;
-  background: url("img/bg.jpg") no-repeat;
+  background: url("/img/bg.jpg") no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .songItem {
@@ -75,14 +77,15 @@ nav ul li {
 }
 
 .timestamp i {
-    cursor: pointer;
-    width: 23px;
-    margin-left: 10px;
+  cursor: pointer;
+  width: 23px;
+  margin-left: 10px;
 }
 
-.bottom {
+footer {
   position: sticky;
-  height: 13vh;
+  height: 11vh;
+  padding-top: 1vh;
   background-color: black;
   bottom: 0;
   display: flex;
@@ -92,24 +95,49 @@ nav ul li {
   color: white;
 }
 
+footer .bottom {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#masterSongName {
+  align-self: center;
+}
+
 #myProgressBar {
   width: 80vw;
   cursor: pointer;
 }
 
+#gifDiv {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
 .icons {
+  width: 20vw;
   margin: 12px 0;
+  display: flex;
+  justify-content: center;
 }
 
-.songInfo {
-    position: absolute;
-    left: 10vw;
-    display: flex;
-    align-items: center;
-    font-family: 'Varela Round', sans-serif;
+#previous,
+#masterPlay,
+#next {
+  margin: 0 2vw;
+  cursor: pointer;
 }
 
-.songInfo img {
-    opacity: 0;
-    transition: opacity 0.3s ease-in;
+#masterSongName {
+  width: 30vw;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.bottom img {
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
 }
