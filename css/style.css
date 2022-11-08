@@ -44,7 +44,7 @@ nav ul li {
 .container {
   height: 70vh;
   background-color: #75b975;
-  background: url("/img/bg.jpg") no-repeat;
+  /* background: url("/img/bg.jpg") no-repeat; */
   color: white;
   font-family: "Varela Round", sans-serif;
   display: flex;
