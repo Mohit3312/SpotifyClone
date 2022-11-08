@@ -43,7 +43,7 @@ nav ul li {
 
 .container {
   height: 70vh;
-  background-color: black;
+  background: url("/img/bg.jpg") no-repeat;
   color: white;
   font-family: "Varela Round", sans-serif;
   display: flex;
@@ -52,7 +52,6 @@ nav ul li {
   width: 70vw;
   border: 2px solid black;
   border-radius: 12px;
-  background: url("/img/bg.jpg") no-repeat;
   background-size: cover;
   overflow: hidden;
 }
