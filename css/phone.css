@@ -36,6 +36,7 @@ nav ul li {
 .songItem .songName {
   font-size: 0.6rem;
   text-align: center;
+  width: 47vw;
 }
 
 footer {

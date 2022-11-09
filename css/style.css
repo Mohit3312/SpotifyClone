@@ -73,14 +73,12 @@ nav ul li {
   border-radius: 30px;
 }
 
-.timestamp {
-  margin: 0 23px;
+.songListPlay {
+  padding: 0 23px;
 }
 
-.timestamp i {
+.songListPlay i {
   cursor: pointer;
-  width: 23px;
-  margin-left: 10px;
 }
 
 footer {
