@@ -4,7 +4,7 @@
 }
 
 nav ul {
-  height: 12vh;
+  height: 9vh;
 }
 
 nav ul li {
@@ -13,11 +13,14 @@ nav ul li {
 
 .container {
   width: 90vw;
+  height: 72vh;
+  justify-content: center;
 }
 
 .container .songsList h1 {
   font-size: 0.9rem;
   padding: 1vh 0;
+  text-align: center;
 }
 
 .songItem {
@@ -25,17 +28,18 @@ nav ul li {
 }
 
 .songItem img {
-  width: 25px;
+  width: 40px;
   margin: 6px;
-  border-radius: 15px;
+  border-radius: 32px;
 }
 
 .songItem .songName {
   font-size: 0.6rem;
+  text-align: center;
 }
 
 footer {
-  height: 19vh;
+  height: 9vh;
   padding-top: 2vh;
 }
 

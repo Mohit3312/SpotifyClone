@@ -48,7 +48,7 @@ nav ul li {
   color: white;
   font-family: "Varela Round", sans-serif;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 2vh auto;
   padding: 2vh 2vw;
   width: 70vw;
