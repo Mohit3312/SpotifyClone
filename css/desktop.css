@@ -1,0 +1,55 @@
+nav ul li {
+  padding: 0 15px;
+}
+
+.container {
+  width: 90vw;
+  height: 130vh;
+}
+
+.container .songsList h1 {
+  font-size: 1.8rem;
+  padding: 5vh 0;
+  text-align: center;
+}
+
+.songItem {
+  margin: 5px 0px;
+}
+
+.songItem img {
+  width: 50px;
+  margin: 6px;
+  border-radius: 30px;
+}
+
+.songItem .songName {
+  font-size: 1rem;
+  text-align: center;
+  width: 55vw;
+}
+
+footer {
+  height: 20vh;
+  padding-top: 2vh;
+}
+
+#myProgressBar {
+  width: 90vw;
+}
+
+footer .bottom {
+  width: 95vw;
+}
+
+#gif {
+  width: 75px;
+}
+
+.icons {
+  width: 35vw;
+}
+
+#masterSongName {
+  font-size: 1.2rem;
+}

@@ -19,7 +19,7 @@ nav ul {
   display: flex;
   align-items: center;
   list-style: none;
-  height: 9vh;
+  height: 11vh;
   background-color: black;
   color: white;
 }
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 .brand img {
-  width: 45px;
+  width: 40px;
   padding: 0 8px;
 }
 
@@ -83,7 +83,7 @@ nav ul li {
 
 footer {
   position: sticky;
-  height: 11vh;
+  height: 12vh;
   padding-top: 1vh;
   background-color: black;
   bottom: 0;
