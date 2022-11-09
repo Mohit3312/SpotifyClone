@@ -13,7 +13,7 @@ nav ul li {
 
 .container {
   width: 90vw;
-  height: 72vh;
+  height: 98vh;
   justify-content: center;
 }
 
@@ -34,13 +34,13 @@ nav ul li {
 }
 
 .songItem .songName {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   text-align: center;
   width: 47vw;
 }
 
 footer {
-  height: 9vh;
+  height: 20vh;
   padding-top: 2vh;
 }
 
